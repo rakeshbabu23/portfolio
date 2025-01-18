@@ -7,11 +7,11 @@ const Header = () => {
         <h1 className="font-bold text-4xl lg:text-6xl text-gray-100">
           Hi, I'm <span className="text-white">Rakesh</span> 👋
         </h1>
-        <h2 className="text-xl lg:text-2xl text-gray-300">
+        {/* <h2 className="text-xl lg:text-2xl text-gray-300">
           I decided to become a{" "}
           <span className="font-semibold text-white">software developer</span>{" "}
           when I was in <sup>10th</sup> grade
-        </h2>
+        </h2> */}
       </div>
 
       <div className="space-y-4">
