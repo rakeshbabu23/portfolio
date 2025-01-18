@@ -20,7 +20,7 @@ const Layout = () => {
                 navigate(tab.target);
               }}
               key={tab.label}
-              classNames={`flex flex-col items-center justify-center w-42 cursor-pointer text-lg lg:text-xl px-6 py-2 lg:px-6 lg:py-3 ${
+              classNames={`flex flex-col items-center justify-center w-42 cursor-pointer text-lg lg:text-xl px-3 py-2 lg:px-6 lg:py-3 ${
                 activeTab === index
                   ? "bg-gradient-to-br from-purple-500 to-blue-500 text-white"
                   : "bg-black text-white"
